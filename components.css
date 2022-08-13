@@ -116,3 +116,41 @@ ul {
   font-size: 10px;
   line-height: 10px;
 }
+
+/* main section */
+
+main h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 15px;
+}
+
+main img {
+  width: 60px;
+  height: 96px;
+}
+
+main p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+main button {
+  background: #0085ff;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #ffffff;
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #0085ff;
+  cursor: pointer;
+}
+
+main button:hover {
+  background: #fff;
+  color: #0085ff;
+}
