@@ -1,1 +1,36 @@
 /* THIS IS THE ONLY FILE YOU SHOULD CHANGE */
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 152px 140px auto 140px;
+  grid-template-areas:
+    "nav nav nav"
+    "about main books"
+    "comments main books"
+    "comments footer contact";
+}
+
+nav {
+  grid-area: nav;
+}
+
+.aboutme {
+  grid-area: about;
+}
+
+.comments {
+  grid-area: comments;
+}
+
+main {
+  grid-area: main;
+}
+
+.books {
+  grid-area: books;
+}
+
+.contact {
+  grid-area: contact;
+}
