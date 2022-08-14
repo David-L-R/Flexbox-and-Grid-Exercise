@@ -154,3 +154,78 @@ main button:hover {
   background: #fff;
   color: #0085ff;
 }
+
+/* books section */
+
+.books h1 {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.books img {
+  width: 60px;
+  height: 96px;
+}
+
+/* contact section */
+
+.contact img {
+  width: 40px;
+  height: 40px;
+}
+
+.contact h1 {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* footer */
+
+footer button {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+footer .warning-button {
+  background: #d60000;
+  color: #ffffff;
+  border: 1px solid #d60000;
+}
+
+footer .add-new-button {
+  background: #00c74f;
+  color: #ffffff;
+  border: 1px solid #00c74f;
+}
+
+footer .share-button {
+  background: none;
+  color: #00c74f;
+  border: 1px solid #00c74f;
+}
+
+footer .warning-button:hover {
+  background: none;
+  color: #e70000;
+  border: 1px solid #e70000;
+}
+
+footer .add-new-button:hover {
+  background: none;
+  color: #00c74f;
+  border: none;
+}
+
+footer .share-button:hover {
+  background: none;
+  color: #00c74f;
+  border: none;
+}
