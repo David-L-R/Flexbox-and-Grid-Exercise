@@ -9,6 +9,8 @@ body {
     "about main books"
     "comments main books"
     "comments footer contact";
+  row-gap: 20px;
+  column-gap: 20px;
 }
 
 nav {
@@ -17,6 +19,29 @@ nav {
 
 .aboutme {
   grid-area: about;
+  display: grid;
+  grid-template-columns: 40px auto auto 60px;
+  grid-template-rows: 40px auto;
+  grid-template-areas:
+    "img name . tag"
+    "text text text text";
+  padding: 20px;
+}
+
+.aboutme img {
+  grid-area: img;
+}
+
+.aboutme h2 {
+  grid-area: name;
+  margin-left: 20px;
+}
+.aboutme .tag {
+  grid-area: tag;
+}
+
+.aboutme p:last-child {
+  grid-area: text;
 }
 
 .comments {
