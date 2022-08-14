@@ -1,12 +1,16 @@
 # Flexbox and Grid Exercise
 
+You will have the opportunity to test (and improve) your modern layout skills!
+
+## 🎯 Goal
+
 In this exercise you need to use at least one flexbox and one grid in order to achieve the following design:
 
 <img width="904" alt="Screenshot 2022-08-13 at 16 41 50" src="https://user-images.githubusercontent.com/31222514/184499105-0f8cc291-eeb9-41e8-b5d4-2b98f12fb5fc.png">
 
 [Link to design](https://www.figma.com/file/cVL7QxbPeiulUwbi9Fe07w/Flexbox-and-Grid-Exercise?node-id=0%3A1)
 
-## Files
+## 📚 Files
 
 **The only files you should change are**
 
@@ -19,13 +23,22 @@ You should add all layout styles to the **styles.css** file.
 
 The components themselves do not need to be changed. I have created the cards, images, avatars and text for you. This design is inside `components.css` and should not be changed.
 
-## Goal
+## 📕 Instructions
 
-You will get time to complete this task. Try to focus first on creating flexbox and grid for the layout of the page. Only if you have time continue and create flexbox and grid for each section.
+You will get time to complete this task in groups.
+
+1. Start by creating flexbox and grid for the layout of the page.
+1. Only if you have time, create flexbox and grid for each section.
 
 Most probably that you will not be able to finish everything withing the time limit!
 
-## Starter code
+You can add HTML wrappers (`<div>` for example) in order to create flexbox or grid containers around elements.
+
+You can also add classes to control design.
+
+❗ Make sure to only change `index.html` and `styles.css`. ❗
+
+## 🎁 Starter code
 
 Create a new project through the terminal.
 
