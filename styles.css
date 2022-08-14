@@ -13,8 +13,27 @@ body {
   column-gap: 20px;
 }
 
-nav {
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+body > nav {
   grid-area: nav;
+  display: flex;
+  padding: 0 120px 0 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body > nav > ul {
+  display: flex;
+}
+
+body > nav > ul > li {
+  min-width: max-content;
+  margin-left: 30px;
 }
 
 .aboutme {
@@ -46,6 +65,7 @@ nav {
 
 .comments {
   grid-area: comments;
+  padding: 30px 20px;
 }
 
 main {
@@ -60,13 +80,18 @@ main {
   grid-area: contact;
 }
 
-.comments {
-  padding: 30px 20px;
+.comment {
+  margin-bottom: 20px;
 }
 
 .comment > div {
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
+}
+
+.comments h1 {
+  margin-bottom: 30px;
 }
 
 .comment > div > div {
@@ -101,9 +126,34 @@ footer {
   align-items: center;
 }
 
+.contact {
+  padding: 25px 35px;
+}
+
+.contact h1 {
+  margin-bottom: 20px;
+}
+
 .contact ul {
   display: flex;
-  padding: 25px 35px;
-  justify-content: center;
-  align-items: space-between;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.books {
+  padding: 40px;
+}
+
+.books h1 {
+  margin-bottom: 30px;
+}
+
+.book-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 30px;
 }
