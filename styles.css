@@ -2,7 +2,7 @@
 
 body {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 152px 140px auto 140px;
   grid-template-areas:
     "nav nav nav"
@@ -58,4 +58,52 @@ main {
 
 .contact {
   grid-area: contact;
+}
+
+.comments {
+  padding: 30px 20px;
+}
+
+.comment > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment > div > div {
+  display: flex;
+  gap: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+main article {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+main article > div {
+  display: flex;
+  gap: 10px;
+  max-width: 75%;
+}
+
+main article button {
+  align-self: flex-end;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  align-items: center;
+}
+
+.contact ul {
+  display: flex;
+  padding: 25px 35px;
+  justify-content: center;
+  align-items: space-between;
 }

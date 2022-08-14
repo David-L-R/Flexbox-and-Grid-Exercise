@@ -124,6 +124,13 @@ ul {
 
 /* main section */
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 70px 35px;
+}
+
 main h2 {
   font-weight: 700;
   font-size: 20px;
