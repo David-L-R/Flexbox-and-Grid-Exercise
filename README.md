@@ -64,3 +64,35 @@ Clone this repository
 
 Run the project using the Live Server extension:
 [download it here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+## Essentials
+
+### Flex
+
+```css
+.flex-container {
+    display: flex;
+    flex-direction: row | column | column-reverse | row-reverse
+    justify-content: flex-start | flex-end | center | space-between | space-around
+    align-items: flex-start | flex-end | center | space-between | space-around
+    flex-wrap: nowrap | wrap | wrap-reverse
+    gap: <number> | <%> ...
+}
+```
+
+### Grid
+
+```css
+.grid-container {
+     display: grid
+     grid-template-columns: ... 
+     grid-template-rows: ... 
+     grid-template-areas: ... 
+     row-gap: <number> | <%> ...
+     column-gap: <number> | <%> ...
+}
+
+.grid-item {
+   grid-area: <area_name_as_defined_in_the_grid-template-areas>
+}
+```
